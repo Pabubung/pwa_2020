@@ -1,0 +1,13 @@
+const actions = {
+    IATTENDQUESTION_REQUEST: 'IATTENDQUESTION_REQUEST',
+    IATTENDQUESTION_SUCCESS: 'IATTENDQUESTION_SUCCESS',
+    IATTENDQUESTION_ERROR: 'IATTENDQUESTION_ERROR',
+
+    IATTENDQUESTION_LIST_REQUEST: (payload) => ({
+      type: actions.IATTENDQUESTION_REQUEST,
+      payload
+    }),
+
+  };
+  export default actions;
+  

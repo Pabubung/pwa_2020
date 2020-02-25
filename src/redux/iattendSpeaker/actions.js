@@ -1,0 +1,13 @@
+const actions = {
+    IATTENDSPEAKER_REQUEST: 'IATTENDSPEAKER_REQUEST',
+    IATTENDSPEAKER_SUCCESS: 'IATTENDSPEAKER_SUCCESS',
+    IATTENDSPEAKER_ERROR: 'IATTENDSPEAKER_ERROR',
+
+    IATTENDSPEAKER_SPEAKER_REQUEST: (payload) => ({
+      type: actions.IATTENDSPEAKER_REQUEST,
+      payload
+    }),
+
+  };
+  export default actions;
+  

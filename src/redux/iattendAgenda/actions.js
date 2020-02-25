@@ -1,0 +1,13 @@
+const actions = {
+    IATTENDAGENDA_REQUEST: 'IATTENDAGENDA_REQUEST',
+    IATTENDAGENDA_SUCCESS: 'IATTENDAGENDA_SUCCESS',
+    IATTENDAGENDA_ERROR: 'IATTENDAGENDA_ERROR',
+
+    IATTENDAGENDA_LIST_REQUEST: (payload) => ({
+      type: actions.IATTENDAGENDA_REQUEST,
+      payload
+    }),
+
+  };
+  export default actions;
+  

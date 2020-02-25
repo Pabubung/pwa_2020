@@ -1,0 +1,1773 @@
+/********** Add Your Global CSS Here **********/
+
+.topbar_div_2020{
+  background-color: #c55e5e !important;
+  padding-left: '30px';
+  /* border-color: #5a8e2f; */
+  min-height: '64px';
+  z-index: 1040;
+  box-shadow: 'none';
+  /* background: customizedTheme.topbarTheme, */
+}
+
+.eventlist_div_body_2020{
+  margin-top: 0em;
+}
+
+.LayoutWrapper_2020{
+  background-color: #ffffff;
+}
+
+
+.divBottom_Nav_2020{
+  background-color: #f9fdfe;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  left: 0px;
+  padding: 0px;
+  border-top: 1px solid #f2f4f3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* End 2020 Konfigurasi */
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+li,
+input,
+textarea,
+span,
+div,
+button,
+html,
+body,
+html a {
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+}
+
+a,
+button,
+li,
+span {
+  -webkit-tap-highlight-color: transparent;
+}
+
+ul {
+  margin: 0;
+}
+
+.scrollbar-track {
+  background: rgba(222, 222, 222, 0.15) !important;
+}
+
+.scrollbar-track-x {
+  height: 5px !important;
+}
+
+.scrollbar-track-y {
+  width: 5px !important;
+}
+
+.scrollbar-thumb {
+  border-radius: 0 !important;
+  background: rgba(0, 0, 0, 0.5) !important;
+}
+
+.scrollbar-thumb-x {
+  height: 5px !important;
+}
+
+.scrollbar-thumb-y {
+  width: 5px !important;
+}
+
+/* Ini untuk toolbar */
+
+.topbar{
+  color: #ffffff;
+  /* Ini buatan anya */
+  width: 100%;
+  font-weight: bold;
+
+}
+
+.topbar_div{
+  background-color: #b61131 !important;
+  padding-left: '30px';
+  min-height: '64px';
+  z-index: 1040;
+  /* background: customizedTheme.topbarTheme, */
+}
+
+/* Ini untuk akhir toolbar */
+
+
+
+/* Ini untuk halaman dashboard */
+
+.dashboard_slideshow_header{
+  margin: 0px;
+  padding: 0px;
+}
+
+.dashboard_slideshow_header_text{
+  margin: 0px;
+  padding: 0px;
+  font-size: 1em;
+  position: relative;
+  top: -15px
+}
+
+
+.dashboard_slideshow_title{
+  margin-block-start: 0em;
+  margin-block-end: 0.3em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.dashboard_slideshow_description{
+  font-size: 0.8em;
+  margin: 0;
+  padding: 0;
+}
+
+.dashboard_slideshow_img{
+  background-size:100% 100%;
+}
+
+.dashboard_life_div{
+  align-self: flex-start;
+}
+
+.dashboard_life_img{
+  width: 100px;
+  height: 70px;
+  margin-top: 0.2em;
+  margin-right: 1em;
+}
+
+.dashboard_guesehat_img{
+  width: 100px;
+  height: 70px;
+  margin-top: 0.2em;
+  /* margin-right: 1em; */
+  margin-left: 1em;
+}
+
+.dashboard_life_ul{
+  margin: 2px;
+  padding: 2px;
+  margin-bottom: 1em;
+  /* background-color: #ececec90; */
+}
+
+.dashboard_guesehat_ul{
+  margin: 0px;
+  padding: 0px;
+  /* margin-bottom: 1em; */
+  /* background-color: #ececec90; */
+  border-bottom: 1px solid #f1f1f1;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.dashboard_life_div_text{
+  width: 100%;
+  align-self: flex-start;
+}
+
+.dashboard_life_div_text_title{
+  margin: 0px;
+  padding: 0px;
+  font-weight: bold;
+  font-size: 0.8em;
+}
+
+.dashboard_guesehat_div_text_title{
+  margin: 0px;
+  padding: 0px;
+  font-weight: bold;
+  /* font-size: 1em; */
+  /* font-family: 'Titillium Web', sans-serif; */
+  font: 400 18px/21px 'Titillium Web', sans-serif;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+.dashboard_life_div_text_description{
+  margin: 0px;
+  padding: 0px;
+  font-size: 0.7em;
+  min-height: 40px;
+  overflow: hidden;
+  color: #666666;
+  margin-top: 0.2em
+}
+
+.dashboard_title{
+  font-size: 0.8em;
+}
+
+/* Ini untuk akhir halaman dashboard */
+
+
+/* --- Ini untuk dexan sehat --- */
+
+.dashboard_sehat_div_title{
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  background-color: #ececec90;
+}
+
+.dashboard_sehat_title{
+  font-size: 0.8em;
+}
+
+.dashboard_detail_page{
+  margin: 20px;
+}
+
+.dashboard_detail_page_button_close{
+  margin: 0;
+  padding: 0;
+  margin-right: 10px;
+  color: #ffffff;
+}
+
+.dashboard_dialog_save{
+  position: absolute;
+  right: 10px;
+  color: #ffffff;
+  background-color: #666666;
+}
+
+.icon_detail_information{
+  font-size: 16px;
+}
+
+.dashboard_detail_page_img{
+  width: 100%;
+  margin-top:28px;
+}
+
+.dashboard_detail_page_title{
+  font-size: 1.2em;
+}
+
+/* --- Ini untuk akhir dexan sehat --- */
+
+
+/* Ini untuk dexan life */
+
+.MuiListroot-0-3-185{
+  padding-top: 0px;
+}
+
+.dexanlife_div{
+  min-height: 300px;
+  /* overflow-y: scroll; */
+}
+
+/* Ini untuk akhir dexan life */
+
+
+/* --- Ini untuk my leave request --- */
+
+.eventlist_ul_li_leaverequest{
+  list-style-type: none;
+}
+
+.leave_request_create_ticket_h1{
+  background-color: #18a288;
+  margin: 0px;
+  padding: 0px;
+  color: #ffffff;
+  padding: 0.7em;
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+
+.leave_request_create_ticket_ul{
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+
+}
+
+.leave_request_create_ticket_ul li{
+margin-bottom: 10px;
+}
+
+.leave_request_create_ticket_ul_li_textfield{
+  width: 100%;
+  margin-left: 0px;
+}
+
+.create_leave_request_reasontype{
+  border: 0.2em solid #ececec90;
+}
+
+.create_leave_request_absence_type{
+  /* margin: 0;
+  padding: 0px; */
+  width: 100%;
+}
+
+.create_leave_request_my_ticket_dialog_footer{
+  position: absolute;
+    bottom: 30px;
+    width: 96%;
+    height: 35px;
+    padding: 2%;
+    /* background-color: #a5a5a5; */
+    /* padding: 0;
+    margin-left: 2em;
+    margin-right: 2em; */
+}
+
+.create_leave_request_reason_leave{
+  border: 0.1em solid #ececec90;
+  width: 98%;
+  color: rgba(0, 0, 0, 0.87);
+  cursor: text;
+  display: inline-flex;
+  font-size: 1rem;
+  /* font-size: 0.75rem; */
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  line-height: 1.1875em;
+  margin: 0 8px 16px;
+  margin-left: 0px;
+  padding: 1%;
+}
+
+.create_leave_request_absence_type_label{
+  margin: 0 8px 16px;
+  margin-left: 0px;
+  margin-bottom: 8px;
+  padding: 8px;
+  padding-left: 0px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  margin-top: 0em;
+  padding-right: 0px;
+  width: 100%;
+  font-weight: bold;
+}
+
+.create_leave_request_start_date_label{
+  margin: 0 8px 16px;
+  margin-bottom: 0px;
+  padding: 8px;
+  padding-left: 0px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  margin-top: 1em;
+  padding-right: 0px;
+  width: 100%;
+  font-weight: bold;
+}
+
+.create_leave_request_start_date_label_grid{
+  padding-right: 0px;
+  float: left;
+  width: 50%;
+}
+
+.create_leave_request_end_date_label_grid{
+  padding-right: 0px;
+  float: left;
+  width: 50%;
+}
+
+.create_leave_request_end_date_label_grid_absen{
+  padding-right: 0px;
+  /* float: left; */
+  width: 100%;
+}
+
+.create_leave_request_start_date{
+  width: 95%;
+  /* margin: 0 8px 16px; */
+  margin-bottom: 16px;
+}
+
+.create_leave_request_end_date{
+  width: 100%;
+  /* margin: 0 8px 16px; */
+  margin-bottom: 16px;
+}
+.create_leave_request_div{
+  width: 50%;
+  float: left;
+  /* padding: 8px; */
+}
+ 
+.create_leave_request_button_cancel{
+  width: 100%;
+  border-radius: 0;
+}
+
+.create_leave_request_button_submit{
+  width: 100%;
+  margin-right: 10px;
+  border-radius: 0;
+}
+
+.create_leave_request_grid_button_cancel{
+  padding-right: 20px;
+}
+
+.create_leave_request_grid_button_submit{
+  padding-right: 20px;
+}
+
+.create_leave_request_camera_div{
+  margin: 0px auto;
+}
+
+.create_leave_request_dialog_close{
+  position: absolute;
+  right: 10px;
+  top: 15px;
+  color: #ffffff
+}
+
+.my_leaverequest{
+  height: 100vh; /* Magic here */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.other_applications_my_ticket_description_balance{
+  color: #1668B1;
+  font-size: 0.7em;
+}
+
+.eventlist_floating_button{
+  position: absolute;
+  bottom: 10px;
+  right: 5px;
+}
+
+.eventlist_floating_button_inset{
+  font-size: 0.5em;
+  width: 5.5em;
+  height: auto;
+  padding: 1em;
+}
+
+.eventlist_ul{
+  /* margin: 0px;
+  padding: 0px; */
+  /* flex-grow: 1;
+    margin-top: 0px;
+    background-color: #fff; */
+    margin: 2em;
+}
+
+.eventlist_ul_avatar{
+  /* margin: 0px;
+  padding: 0px; */
+  /* flex-grow: 1;
+    margin-top: 0px;
+    background-color: #fff; */
+    margin-left: 1em;
+    background-color: #FF5733;
+}
+
+.eventlist_ul_avatar_number{
+  /* margin: 0px;
+  padding: 0px; */
+  /* flex-grow: 1;
+    margin-top: 0px;
+    background-color: #fff; */
+    margin-left: 0em;
+    background-color: #FF5733;
+}
+
+.eventlist_div_body{
+  margin-top: 1em;
+}
+
+.eventlist_div_body_description{
+  color: #a5a5a5;
+  font-size: 0.7em;
+  text-align: center;
+}
+
+/* --- Ini untuk akhir my leave request --- */
+
+
+/* Ini untuk other applications */
+
+.other_applications_my_ticket_div{
+  /* margin: 0px;
+  padding: 0px; */
+  flex-grow: 1;
+    margin-top: 0px;
+    background-color: #fff;
+}
+
+.other_applications_my_ticket_header_tab{
+  background-color: #b61131;
+
+}
+
+
+.other_applications_my_ticket_ul{
+  /* margin: 0px; */
+  /* padding: 0px; */
+  margin-left: 0px;
+  padding-left: 0px;
+  margin-top: 0px;
+  padding-top: 0px;
+  margin-bottom: 0.5em;
+  border-bottom: 0.05em solid #ececec;
+  /* background-color: #ececec90; */
+}
+
+.other_applications_my_ticket_ul_avatar{
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  text-align: center;
+  line-height: 11px;
+}
+
+.other_applications_my_ticket_ul_avatar_number{
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  text-align: center;
+  line-height: 11px;
+}
+
+.other_applications_my_ticket_subtitle{
+  color: #a5a5a5;
+  font-size: 0.7em;
+  font-weight: bold;
+}
+
+.other_applications_my_ticket_description{
+  color: #a5a5a5;
+  font-size: 0.7em;
+}
+
+.other_applications_my_ticket_ul_avatar_tgl{
+  font-size: 0.7em;
+  font-weight: bold;
+}
+
+.other_applications_my_ticket_ul_avatar_month{
+  font-size: 0.5em;
+}
+
+
+
+.other_applications_my_ticket_avatar_satu{
+  background-color: #37498a;
+}
+
+.other_applications_my_ticket_avatar_dua{
+  background-color: #5a8e2f;
+}
+
+.other_applications_my_ticket_avatar_tiga{
+  background-color: #fedf3a;
+}
+
+.other_applications_my_ticket_avatar_empat{
+  background-color: #d60915;
+}
+
+.other_applications_my_ticket_dialog_div{
+  margin: 20px;
+  margin-top: 50px;
+  /* margin-top:85px; */
+  margin-bottom: 20px;
+}
+
+.other_applications_my_ticket_dialog_detail_header{
+  /* background-color: #e8eae9; */
+  background-color: #18a288 ;
+  font-size: 1em;
+  padding: 0.5em;
+  color: #ffffff;
+  margin-top:85px;
+}
+
+.other_applications_my_ticket_dialog_ul{
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+.other_applications_my_ticket_right_description{
+  color: #a5a5a5;
+  font-size: 0.5em;
+  text-align: center;
+}
+
+.other_applications_my_ticket_dialog_footer{
+  position: fixed;
+  bottom: 0px;
+  width: 93%;
+  height: 35px;
+  /* background-color: #a5a5a5; */
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.other_applications_my_ticket_dialog_button_reopenticket_grid{
+  padding-right: 10px;
+  float: left;
+  width: 100%;
+}
+
+.other_applications_my_ticket_dialog_closeticket_grid{
+  padding-right: 10px;
+  float: left;
+  width: 100%;
+}
+
+.other_applications_my_ticket_dialog_button_reopenticket{
+  width: 100%;
+  margin-right: 10px;
+  background-color: #d60915;
+  color: #ffffff;
+  border-radius: 0;
+}
+
+.other_applications_my_ticket_dialog_closeticket{
+  width: 100%;
+  margin-right: 0px;
+  background-color: #5a8e2f;
+  color: #ffffff;
+  border-radius: 0;
+}
+
+.other_applications_my_ticket_dialog_divlast{
+  height: 50px;
+}
+
+.other_applications_my_ticket_dialog_header{
+  background-color: #d60915;
+}
+
+.other_applications_my_ticket_dialog_comment_box{
+  border: 0.1em solid #ececec90;
+  width: 95%;
+  color: rgba(0, 0, 0, 0.87);
+  cursor: text;
+  display: inline-flex;
+  font-size: 1rem;
+  /* font-size: 0.75rem; */
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  line-height: 1.1875em;
+  padding: 8px;
+  background-color: #ffffff;
+}
+
+.other_applications_my_ticket_dialog_detail_header_reopen{
+    background-color: #e8eae9;
+    font-size: 1em;
+    padding: 0.5em;
+    color: #666666;
+    font-weight: normal;
+}
+
+.other_applications_my_ticket_dialog_detail_ul_close_ticket{
+  margin: opx;
+  padding: 0px;
+  list-style-type: none;
+}
+
+.other_applications_my_ticket_dialog_detail_li_close_ticket{
+
+  border-bottom: 0.05em solid #e8eae9;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+
+}
+
+.dashboard_dialog_typograph{
+  margin-bottom: 5px;
+}
+
+/* Ini untuk akhir other applications */
+
+/* Ini untuk create request  */
+
+.other_applications_create_ticket_ul{
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+
+}
+
+.other_applications_create_ticket_ul li{
+margin-bottom: 10px;
+}
+
+.other_applications_create_ticket{
+  padding: 1em;
+  margin-bottom: 2em;
+}
+
+.other_applications_create_ticket_select{
+  width: 100% !important;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 10px;
+  margin-left:0px !important;
+}
+
+.owrCb {
+  margin-left:0px;
+}
+
+.other_applications_create_ticket_textinput{
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 10px;
+}
+
+.other_applications_create_ticket_textarea{
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Ini untuk akhir create request */
+
+
+/* Ini untuk eventlist */
+
+.eventlist_title{
+  background-color: #f4eee2;
+  margin: 0px;
+  padding: 0.5em;
+  padding-left: 1.6em;
+  font-size: 0.9em;
+  font-weight: 500;
+}
+
+.eventlist_ul{
+  /* margin: 0px; */
+  /* padding: 0px; */
+  margin-left: 0px;
+  padding-left: 0px;
+  margin-top: 0px;
+  padding-top: 0px;
+  margin-bottom: 0.5em;
+  border-bottom: 0.05em solid #ececec;
+  /* background-color: #ececec90; */
+}
+
+.eventlist_subtitle{
+  color: #a5a5a5;
+  font-size: 0.7em;
+  font-weight: bold;
+}
+
+.eventlist_div_icon{
+  margin-right: 0px;
+}
+
+.eventlist_icon{
+
+}
+
+.eventlist_link{
+  text-decoration: none
+}
+
+
+.eventlist_dashboard_div{
+  padding: 2em;
+}
+
+.my_approval_leaverequest{
+  color: #000000;
+  font-size: 0.7em;
+}
+
+.my_approval_leaverequest_approve{
+  color: #ffffff;
+  font-size: 0.7em;
+  width: 100%;
+  box-shadow: none;
+  background-color: #5a8e2f;
+}
+
+.detailButton{
+  color: #ffffff;
+  font-size: 0.7em;
+  width: 100%;
+  box-shadow: none;
+  background-color: #5a8e2f;
+  border-radius: 0;
+}
+
+.my_approval_leaverequest_reject{
+  color: #ffffff;
+  font-size: 0.7em;
+  width: 100%;
+  box-shadow: none;
+  background-color: #b61131
+}
+
+.my_approval_leaverequest_loadmore{
+  color: #ffffff;
+  font-size: 0.7em;
+  width: 100%;
+  box-shadow: none;
+  background-color: #1668B1;
+}
+
+ul.my_approval_leaverequest_ul{
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  margin-top: 10px;
+}
+
+ul.my_approval_leaverequest_ul li{
+  float: left;
+  width: 30%;
+  margin-right: 5px;
+}
+
+.searchTextLabel{
+  font-size: 0.8em;
+}
+
+.liststrat_othermyticket{
+  text-align: right;
+}
+
+.userImgWrapper{
+  border: 0.5px solid #ececec;
+}
+
+.judulHiDexan{
+  margin-top: 0;
+}
+
+.eventJudulAtas{
+  font-size: 1em;
+  margin: 0px;
+  padding: 0px;
+  color: #ececec;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.eventPlaceAtas{
+  font-size: 0.8em;
+  margin: 0px;
+  padding: 0px;
+  color: #ececec;
+  text-align: center;
+  font-weight: normal;
+}
+
+.eventTimeAtas{
+  font-size: 0.8em;
+  margin: 0px;
+  padding: 0px;
+  color: #ececec;
+  text-align: center;
+  font-weight: normal;
+}
+
+.eventBackgroundHeader{
+  background-color: #666666;
+  width: 100%;
+  padding: 2em;
+  padding-left: 2em;
+}
+
+.colGrid{
+  padding:1em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  background-color: #ececec;
+  margin-bottom: 1px;
+  text-align: center;
+  margin-right: 1px;
+  font-size: 12px;
+}
+
+.eventBackgroundHeaderIattend{
+  /* background-color: #ececec; */
+  background-color: #E79A9A;
+  padding: 2em;
+  padding-top: 0.6em;
+  padding-bottom: 0.5em;
+  min-height: 30px;
+  position: absolute;
+  z-index: 9;
+  width: 100%;
+}
+
+.eventBackgroundHeaderAgenda{
+    /* background-color: #ececec; */
+    background-color: #E79A9A;
+    padding: 2em;
+    padding-top: 0.6em;
+    padding-bottom: 0.5em;
+    min-height: 30px;
+}
+
+.borderradis{
+  border-radius: 0px;
+}
+
+.eventBackgroundHeaderListAttendSearch{
+  /* padding: 2em;
+  padding-top: 0.6em;
+  padding-bottom: 0.5em; */
+  min-height: 30px;
+  position: absolute;
+  z-index: 9;
+  width: 100%;
+  top: 49px;
+}
+
+.avatardetailbackgrouddiv{
+  /* padding: 2em;
+  padding-top: 0.6em;
+  padding-bottom: 0.5em; */
+  min-height: 30px;
+  position: absolute;
+  z-index: 9;
+  width: 100%;
+  top: 49px;
+  background: #ffffff
+}
+
+.eventJudulAgenda{
+  /* font-size: 12px; */
+  margin-top: 8px;
+  margin-left: 10px;
+  font-size: 14px;
+  float: left;
+  /* padding-top: 5px; */
+  /* background-color: #000000 */
+}
+
+.eventJudulAgendaHome{
+  /* font-size: 12px; */
+  margin-top: 8px;
+  margin-left: 10px;
+  font-size: 16px;
+  text-align: center;
+  /* float: left; */
+  /* padding-top: 5px; */
+  /* background-color: #000000 */
+}
+
+.eventJudulAgendaIcon{
+  /* font-size: 12px;  */
+  float: left;
+  margin-top: 2px;
+}
+
+.timeAgendaList{
+  font-size: 0.7em;
+  font-weight: bold;
+  margin: 0px;
+  padding: 0px;
+  margin-top: 3px;
+  margin-bottom: 2px;
+}
+
+.timeFinishedAgendaList{
+  font-size: 0.7em;
+  font-weight: bold;
+  margin: 0px;
+  padding: 0px;
+  margin-top: 0px;
+}
+
+.ListAgendaMenu{
+  margin-left: 0px; 
+  padding-left: 0px;
+}
+
+.stickyHeader{
+  position: absolute;
+  top: 0px;
+  z-index: 10;
+  width: 100%;
+}
+
+.headerkiri{
+  float: left;
+}
+
+.headerkanan{
+  float: right;
+}
+
+.break{
+  clear: both;
+}
+
+.buttonPDFChange{
+  /* background-color: #e8eae9; */
+  font-size: 11px;
+  float: right;
+  margin-left: 5px;
+  
+}
+
+.buttonPDFChangePrev{
+  /* background-color: #e8eae9; */
+  font-size: 11px;
+  float: right;
+  margin-left: 5px;
+  
+}
+
+.widthDialog{
+  width: 300;
+}
+
+.listDialog{
+  height: 200px;
+  overflow-y: scroll;
+}
+
+.listDialognotification{
+  min-height: 100px;
+  overflow-y: scroll;
+}
+
+.divImgDialogNotification{
+  width: 200px;
+  margin: 0px auto;
+}
+
+.divImgDialogNotification{
+  width: 200px;
+  margin: 0px auto;
+}
+
+.divImgDialogNotificationUpdateVersion{
+  width: 100%;
+  margin: 0px auto;
+  background-color: #fbfbfb;
+  margin-bottom: 30px;
+}
+
+.divbodyDialogNotification{
+  /* background-color: #3ca5dd; */
+  color: #666666;
+  padding: 10px;
+  padding-top: 0px;
+}
+
+ul.ulistnotification{
+  margin: 0px; 
+  padding: 0px;
+  list-style-type: none;
+}
+
+.lilistnotification_kanan{
+  float: right;
+  width: 45%;
+  /* margin-right: 20px; */
+}
+
+.lilistnotification_kiri{
+  float: left;
+  width: 45%;
+  /* margin-right: 20px; */
+}
+
+.btnNotificationkiri{
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    background-color: #efefef;
+    color: #666666;
+    border: 0px;
+    width: 100%;
+}
+
+.headerDialogNotification{
+  background-color: #f8f8f8;
+}
+
+.btnNotificationkanan{
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 30px;
+  background-color: #2cc56d;
+  color: #ffffff;
+  border: 0px;
+  width: 100%;
+}
+
+.imgDialogNotification{
+  width: 100%;
+}
+
+.judulDialogNotification{
+  text-align: center;
+  /* font-size: 2em; */
+  font: 400 22px/24px 'Fredoka One', sans-serif;
+}
+
+.divulistnotification{
+  width: 300px;
+  margin: 0px auto;
+  margin-bottom: 20px;
+  min-height: 50px;
+}
+
+.bodyDialogNotification{
+  text-align: center;
+  line-height: 20px;
+}
+
+.deviderListDialog{
+  border-bottom: 1px solid #e8eae9
+}
+
+.deviderListDialogLast{
+  
+}
+
+.question_dialog_footer{
+  position: absolute;
+    bottom: 30px;
+    width: 100%;
+    height: 35px;
+    padding: 2%;
+    /* background-color: #a5a5a5; */
+    /* padding: 0;
+    margin-left: 2em;
+    margin-right: 2em; */
+}
+
+.question_right_grid{
+  padding-right: 10px;
+  float: left;
+  width: 100%;
+}
+
+.question_left_grid{
+  padding-left: 10px;
+  padding-right: 10px;
+  float: left;
+  width: 100%;
+}
+
+.grid_textarea{
+  border: 0.1em solid #ececec90;
+  width: 98%;
+  color: rgba(0, 0, 0, 0.87);
+  cursor: text;
+  display: inline-flex;
+  font-size: 1rem;
+  /* font-size: 0.75rem; */
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  line-height: 1.1875em;
+  margin: 0 8px 16px;
+  margin-left: 0px;
+  padding: 1%;
+}
+
+.grid_textarea_question{
+  border: 0.1em solid #ececec90;
+  width: 98%;
+  color: rgba(0, 0, 0, 0.87);
+  cursor: text;
+  display: inline-flex;
+  font-size: 1rem;
+  /* font-size: 0.75rem; */
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  line-height: 1.1875em;
+  margin: 0 8px 16px;
+  margin-left: 0px;
+  padding: 1%;
+}
+
+.listPdf{
+  margin-bottom:10;
+  float: left;
+}
+
+ul.ulListPDFAgendaFiles{
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+.snackbarTextAlign{
+  text-align: center;
+  margin: 0px auto;
+  width: 245px;
+}
+
+.barcode_background{
+    flex-grow: 1;
+    margin-top: 0px;
+    background-color: #fff;
+}
+
+.styleParagrafScan{
+  text-align: center;
+  line-height: 18px;
+  margin-top: 10px;
+}
+
+.baganDialog{
+  height: 100px;
+}
+
+.my_Loading_div{
+  height: 50;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logodexan{
+  width: 250px;
+  height: 250px;
+  margin:  0px auto;
+}
+
+.divLogodexan{
+  margin: 0px auto;
+  width: 326px;
+  /* height: 346px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: #ffffff; */
+  height: 60vh; /* Magic here */
+  display: flex;
+
+}
+
+.titleWelcome{
+  margin-left: 20px;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.wrapperHome{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fafafa
+}
+
+.containerHome{
+  height: 300px;
+  width: 300px;
+  /* background: black; */
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.subHeader{
+  /* background-color: #ececec; */
+  background-color: #E79A9A;
+  padding: 2em;
+  padding-top: 0.6em;
+  padding-bottom: 0.5em;
+  padding-left: 1.5em;
+  min-height: 30px;
+  align-items: left;
+  justify-content: left;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.subFooter{
+  /* background-color: #ececec; */
+  /* background-color: #E79A9A; */
+  padding: 2em;
+  padding-top: 0.6em;
+  padding-bottom: 0.5em;
+  padding-left: 1.5em;
+  min-height: 30px;
+  align-items: left;
+  justify-content: left;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+
+
+.eventJudulAgendaFooter{
+  /* font-size: 12px; */
+  margin-top: 8px;
+  margin-left: 10px;
+  font-size: 12px;
+  /* float: left; */
+  text-align: center;
+  /* padding-top: 5px; */
+  /* background-color: #000000 */
+}
+
+.subheaderAttendlist{
+  background: #e8eae9;
+  min-height: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.attendlistDateTime{
+  font-size: 0.9em;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.ulattendlist{
+  list-style-type: none;
+
+}
+.liattendlist{
+  /* border-bottom: 1px solid #a5a5a5 */
+  margin-bottom: 5px;
+}
+
+.gambarLazyLoad{
+  height: 70px;
+    width: 100px;
+    background-color: #ececec;
+    margin-right: 10px;
+}
+
+.markerBuilding{
+  background-color: #a5a5a5;
+  color: #ffffff;
+  border: 1px solid #a5a5a5;
+  width: 50%;
+  /* height: 30%; */
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.markerBuildingText{
+  text-align: center;
+  font-size: 12px;
+}
+
+.spanLatLang{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.avatarDetail{
+  width: 130px;
+  height: 130px;
+  border-radius: 100px;
+}
+
+.divAvatarDetail{
+  width: 130px;
+  height: 130px;
+  margin: 0px auto;
+}
+
+.divListAvatarDetail{
+  margin-top: 20px;
+}
+
+.ulAvatarDetailList{
+  list-style-type: none;
+  margin: 0px;
+  padding: 20px;
+}
+
+.ulListDetailPage{
+  list-style-type: none;
+  margin: 0px;
+  padding: 10px;
+}
+
+.h1juduldetailpage{
+  padding: 10px;
+  display: inline-block;
+    font-size: 120%;
+    font-weight: 500;
+    margin: 4% 0 1%;
+    margin-top:0px;
+    padding-bottom: 5px;
+}
+
+.ulliAvatarDetailListPage{
+
+  /* border-bottom: 1px solid #e8eae9; */
+  /* padding: 3px;
+  padding-left: 0px;
+  padding-right: 0px; */
+  font-size: 14px;
+  margin-bottom: 3px;
+
+}
+
+.nameColorDetailPage{
+  color: #e53935;
+}
+
+.ulliAvatarDetailList{
+
+  border-bottom: 1px solid #e8eae9;
+  padding: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+  font-size: 13px;
+
+}
+
+.divpollingTitle{
+  background-color: #ececec;
+  padding: 10px;
+
+}
+
+.pollingTitle{
+  font-size: 14px;
+}
+
+.radioClass{
+  margin-right: 10px;
+  position: relative;
+  top: 3px;
+}
+
+.titleOption{
+  margin-top: 5px;
+}
+
+.pop-title:after {
+  content: "";
+  position: absolute;
+  left: 10px;
+  bottom: 0;
+  width: 20%;
+  border-bottom: 5px solid #3ca5dd;
+}
+
+.pop-title {
+  font-family: Roboto Condensed,sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #000;
+  margin: 0px 0 0;
+  /* margin-bottom: 20px; */
+  padding: 10px;
+  padding-top: 0px;
+  position: relative;
+  border-bottom: 1px solid #9b9b9b;
+  text-transform: uppercase;
+}
+
+.categorysehat{
+  padding: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+  background: #e3b600;
+  border-radius: 10px;
+  font-size: 10px;
+  color: #ffffff;
+}
+
+/* Ini untuk background per kategori guesehat */
+
+.categorysehat_medis{
+  padding: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+  background: #48E4BE;
+  border-radius: 10px;
+  font-size: 10px;
+  color: #ffffff;
+}
+
+.categorysehat_wanita{
+  padding: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+  background: #EA75DC;
+  border-radius: 10px;
+  font-size: 10px;
+  color: #ffffff;
+}
+
+.categorysehat_sex{
+  padding: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+  background: #e3b600;
+  border-radius: 10px;
+  font-size: 10px;
+  color: #ffffff;
+}
+
+.categorysehat_lifestyle{
+  padding: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+  background: #00b3e3;
+  border-radius: 10px;
+  font-size: 10px;
+  color: #ffffff;
+}
+
+.judulsidebarTitle{
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 10px;
+  padding-bottom: 0px;
+}
+
+.judulsidebarSubTitle{
+  font-size: 12px;
+  text-align: center;
+  position: relative;
+  top: -8px;
+}
+
+.linkTitle{
+  text-align: center;
+}
+/* Ini untuk akhir eventlist */
+
+
+
+/* ini untuk leave request */
+.latarketeranganleaverequest{
+
+  width: 100%;
+  border-left: 5px solid #ececec;
+  padding: 10px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+
+}
+
+.gbrGoApotik{
+    width: 35px;
+    /* margin-top: 20px; */
+    padding: 6px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    float: left;
+}
+
+.divgbrGoApotik{
+    float: left;
+    width: 35px;
+    background-color: #ffffff;
+    margin-top: 13px;
+    border-radius: 20px;
+}
+
+.divBannerGoApotik{
+  background-color: #f9fdfe;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  padding: 10px;
+  border-top: 1px solid #f2f4f3;
+}
+
+.dSrGyb{
+  height: 230px;
+}
+
+.borderbawah{
+  border-bottom: 1px solid #ececec;
+}
+
+.MuiSnackbarContentmessage-0-3-304{
+  text-align: center;
+    width: 100%;
+}
+
+nav.breadcrumbs {
+  /* padding: 10px 0; */
+  list-style-type: none;
+  /* margin-bottom: 0px; */
+  margin: 0px;
+  padding: 0px;
+  font-size: 11px;
+}
+
+nav.breadcrumbs li {
+    display: inline-block;
+    position: relative;
+    margin: 0 10px;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+
+nav.breadcrumbs li a {
+  color: #000;
+  display: block;
+  font-family: 'Roboto', Helvetica, Arial;
+  font-size: 11px;
+  line-height: 17px;
+  position: relative;
+  padding-right: 10px;
+  text-transform: uppercase;
+  
+}
+
+nav.breadcrumbs li a:after {
+  content: '';
+  background-size: 8px 8px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  right: -10px;
+  top: 5px;
+  font-size: 11px;
+}
+
+nav.breadcrumbs li a:after {
+  font-size: 11px;
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23000000'%2F%3E%3C%2Fsvg%3E");
+}
+
+.dashboard_detail_page_img_news{
+  width: 100%;
+  margin-top:0px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.dashboard_detail_page_img_news_div{
+  width: 95%;
+  margin-top:10px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.dashboard_detail_page_img_news_div_content{
+  width: 95%;
+  margin-top:20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  overflow-wrap: break-word;
+}
+
+.gambarHtmlParser{
+  width:100%;
+}
+
+.textareaBtnRejectApproval{
+  padding: 10px;
+  height: 100px;
+}
+
+.listkategoriEvents{
+  width: 100%;
+  padding: 5px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.my_button_list_approval{
+  color: #ffffff;
+  font-size: 0.7em;
+  width: 100%;
+  box-shadow: none;
+  padding: 10px;
+}
+
+.my_button_list_approval_grid{
+  padding-right: 10px;
+  float: left;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.backtolist{
+  /* font-size: 12px; */
+  margin-top: 8px;
+  margin-left: 10px;
+  font-size: 14px;
+  float: left;
+  /* padding-top: 5px; */
+  /* background-color: #000000 */
+}
+
+.backtolist_tanpa_icon{
+  /* font-size: 12px; */
+  margin-top: 8px;
+  margin-left: 0px;
+  font-size: 14px;
+  float: left;
+  /* padding-top: 5px; */
+  /* background-color: #000000 */
+}
+
+.backtolist_div{
+  background-color: #ececec;
+  padding: 2em;
+  padding-top: 0.6em;
+  padding-bottom: 0.5em;
+  min-height: 30px;
+}
